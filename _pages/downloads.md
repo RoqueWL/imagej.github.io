@@ -7,7 +7,7 @@ description: This page provides download links for ImageJ.
 
 Which distribution of ImageJ would you like to download?
 
-| [![](/media/icons/fiji.svg){:width="96px"}<br>Fiji](/software/fiji/downloads) | [![](/media/icons/imagej-1.x.png){:width="96px"}<br>ImageJ 1.x](https://imagej.nih.gov/ij/download.html) |
+| [![](/media/icons/fiji.svg){:width="96px"}<br>Fiji](/software/fiji/downloads) | [![](/media/icons/imagej-1.x.png){:width="96px"}<br>ImageJ](https://imagej.nih.gov/ij/download.html) |
 {:.plain.center.center-text}
 
 {% capture help-me-decide %}
@@ -33,7 +33,7 @@ table.help-me-decide li {
 </style>
 <table class="plain top help-me-decide">
 <tr>
-  <th class="center-text middle"><a href="/software/imagej-1.x">{% include img src="icons/imagej-1.x" width=24 %} ImageJ 1.x</a></th>
+  <th class="center-text middle"><a href="/software/imagej-1.x">{% include img src="icons/imagej-1.x" width=24 %} ImageJ</a></th>
   <th class="center-text middle"><a href="/software/imagej2">{% include img src="icons/imagej"  width=24 %} ImageJ2</a></th>
 </tr>
 <tr>
@@ -65,8 +65,8 @@ table.help-me-decide li {
 For a thorough discussion of the two projects and their differences, please read these papers:
 
 * {% include citation id='software/imagej2' %}
+* {% include citation id='software/imagej/flavors' %}
 * {% include citation id='software/imagej' %}
-* {% include citation id='software/imagej-1.x' %}
 
 Still have questions? Ask on the [Image.sc Forum](https://forum.image.sc/tag/imagej)!
 {% endcapture %}
